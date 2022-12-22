@@ -1,5 +1,11 @@
 {
-  "devDependencies": {
-    "parcel": "^2.8.2"
-  }
+	"name": "confetti-button",
+	"source": "src/index.html",
+	"scripts": {
+		"start": "parcel",
+		"build": "parcel build"
+	},
+	"devDependencies": {
+		"parcel": "latest"
+	}
 }

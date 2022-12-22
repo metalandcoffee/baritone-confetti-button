@@ -1,0 +1,41 @@
+body {
+  background-color: purple;
+  margin: 0;
+}
+
+.wrapper {
+  height: 100vh;
+  place-content: center;
+  display: grid;
+}
+
+button {
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #000;
+  cursor: pointer;
+  -webkit-user-select: none;
+  user-select: none;
+  touch-action: manipulation;
+  border: 3px solid;
+  padding: .25em .5em;
+  font-family: Open Sans, sans-serif;
+  font-size: 16px;
+  text-decoration: none;
+  position: relative;
+  box-shadow: 1px 1px, 2px 2px, 3px 3px, 4px 4px, 5px 5px;
+}
+
+button:active {
+  top: 5px;
+  left: 5px;
+  box-shadow: 0 0;
+}
+
+@media (min-width: 768px) {
+  .button-54 {
+    padding: .25em .75em;
+  }
+}
+
+/*# sourceMappingURL=index.4d663569.css.map */
